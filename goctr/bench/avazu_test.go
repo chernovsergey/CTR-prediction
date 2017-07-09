@@ -8,9 +8,9 @@ import (
 
 func BenchmarkFTRL(*testing.B) {
 
-	train := "../../ctrdata/avazu/train.csv"
+	train := "../../../ctrdata/avazu/train.csv"
 	epoch := 5
-	var verboseEval int = 10000
+	var verboseEval int = 100000
 	holdout := 30
 	var prime uint32 = 15485863
 
